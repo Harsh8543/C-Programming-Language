@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, sum;
+    printf("enter the number \n ");
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("sum of number:%d", sum);
+    return 0;
+    int a, b, c;
+    printf("enter the value of length:");
+    scanf("%d", &a);
+    printf("enter the value of breadth:");
+    scanf("%d", &b);
+
+    c = 2 * (a + b);
+    printf("\n");
+    printf("perimeter= %d", c);
+    return 0;
+
+    int n;
+    printf("enter the multiplication number:\n");
+    scanf("%d", &n);
+
+    printf("multiplication table of %d:\n", n);
+
+    printf("%d*1=%d\n", n, n * 1);
+    printf("%d*2=%d\n", n, n * 2);
+    printf("%d*3=%d\n", n, n * 3);
+    printf("%d*4=%d\n", n, n * 4);
+    printf("%d*5=%d\n", n, n * 5);
+    printf("%d*6=%d\n", n, n * 6);
+    printf("%d*7=%d\n", n, n * 7);
+    printf("%d*8=%d\n", n, n * 8);
+    printf("%d*9=%d\n", n, n * 9);
+    printf("%d*10=%d\n", n, n * 10);
+}
